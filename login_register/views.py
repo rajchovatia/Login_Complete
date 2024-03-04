@@ -173,3 +173,4 @@ def setpasswordpage(request,mobile) :
         user.delete()
         return redirect('/')
     return render(request,"Create_Password.html",data)
+
